@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=mtcd
+Comment=Telescope collimation helper
+Exec=mtcd
+Terminal=false
+Icon=mtcd-icon.png
+X-MultipleArgs=false
+Type=Application
+Categories=Education;Science;Astronomy

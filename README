@@ -1,0 +1,48 @@
+mtcd v1.0
+
+===================================================
+(c) 2020 Blaise-Florentin Collin, GNU GPL v3
+contact : thx8411@yahoo.fr
+===================================================
+
+1. Presentation
+2. Requirements
+3. Usage
+4. Build from sources
+
+===================================================
+
+1. Presentation
+
+   mtcd is a very simple tool written with Qt 4.5 to 
+   help telescope collimation. This tool creates circle
+   sights by transparency on the background window.
+
+2. Requirements
+
+   mtcd just needs the standard Qt 4.5 libraries
+   to work, on a modern windowed operating system, with
+   a compositing window manager.
+
+3. Usage
+
+   Just launch mtcd, and place the window on the
+   video of your mirrors throug your focuser, and
+   adjust the circles
+
+4. Build from sources
+
+   You will need cmake, make, a c++ compiler with all
+the c++ standard libraries, and the developpement version
+of the Qt 4.5 (or above) libraries. You will also need the
+developpement version of the libx11 composite extensions.
+
+   To build from source use :
+
+   >gzip -d mtcd_?.?.?_src.tar.gz
+   >tar -xvf mtcd_?.?.?_src.tar
+   >mkdir mtcd-build
+   >cd mtcd-build
+   >cmake ../mtcd_?.?.?_src/
+   >make
+   >sudo make install
